@@ -14,7 +14,7 @@ function stackedArea(traces) {
 
 $(function () {
 
-	$.getJSON('/debug/charts/data?callback=?', function (data) {
+	$.getJSON('/api/v1/namespaces/nginx-controller/services/declarative-ext-api:pprof/proxy/debug/charts/data?callback=?', function (data) {
 		var pDataChart1 = [{x: [], y: [], type: "scattergl"}];
 
 		for (i = 0; i < data.GcPauses.length; i++) {
