@@ -29,7 +29,7 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/yinfirefire/bindata"
+	"github.com/yinfirefire/debugcharts/bindata"
 	"github.com/shirou/gopsutil/cpu"
 	"github.com/shirou/gopsutil/process"
 )
